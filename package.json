@@ -22,6 +22,7 @@
     "coffee-script-brunch": "^2.0.0",
     "jade-brunch": "^2.0.0",
     "riot-brunch": "0.0.2",
+    "riot-router": "^0.7.3",
     "stylus-brunch": "^2.0.0"
   }
 }

@@ -1,22 +1,17 @@
-app
+ui-app
 
-	header
+	ui-topnav
 
-	h1(onclick='{handleClick}') jade { value }
+	main
 
 	style.
 		body {
 			color: red
 		}
 
-	script.
-		@value = 1
-		@handleClick = (e) ->
-			console.log e
-
-header
-	nav
-		a home
-		a home
-		a home
-		a home
+ui-topnav
+	ul
+		li
+			a(href="/home") home
+		li
+			a(href="/about") about

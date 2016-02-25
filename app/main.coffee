@@ -1,2 +1,10 @@
+# load templates
 require 'layout'
-riot.mount 'app'
+require 'home'
+require 'about'
+
+# load router
+require 'router'
+
+# mount to <app/>
+riot.mount '*'

@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "public/app.js",
   "dependencies": {
-    "riot": "2.3.15"
+    "riot": "2.3.15",
+    "jquery": "2.2.1"
   },
   "overrides": {}
 }
